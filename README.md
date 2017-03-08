@@ -1,5 +1,7 @@
 # pmcli - (p)lay (m)usic for (cli)
 
+[![Build Status](https://travis-ci.org/christopher-dG/pmcli.svg?branch=master)](https://travis-ci.org/christopher-dG/pmcli)
+
 Browse and stream Google Play Music from the comfort and familiarity of your favourite terminal.
 
 ![screencast](https://fat.gfycat.com/MixedCoordinatedAmphibian.gif "Yes, I'm aware that this is technically a TUI")
@@ -17,7 +19,7 @@ Notes for free account users:
 
 ## Dependencies
 
-- [Python 3](https://python.org/downloads)
+- [Python>=3.3](https://python.org/downloads)
 - [mpv](https://mpv.io)
 - [gmusicapi](https://github.com/simon-weber/gmusicapi): `pip install gmusicapi` 
   - Note: If you have both Python 2 and Python 3 installed, specify Python 3 with `pip3 install gmusicapi`.
