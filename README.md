@@ -1,6 +1,7 @@
 # pmcli - (p)lay (m)usic for (cli)
 
 [![Build Status](https://travis-ci.org/christopher-dG/pmcli.svg?branch=master)](https://travis-ci.org/christopher-dG/pmcli)
+[![Coverage](https://codecov.io/gh/christopher-dG/pmcli/branch/master/graph/badge.svg)](https://codecov.io/gh/christopher-dG/pmcli)
 
 Browse and stream Google Play Music from the comfort and familiarity of your favourite terminal.
 
