@@ -52,5 +52,14 @@ class TestFullClient(unittest.TestCase):
         pass
 
 
-if __name__ == '__main__':
-    unittest.main()
+def run():
+    loader = unittest.TestLoader()
+    suite = unittest.TestSuite(
+        [
+            loader.loadTestsFromTestCase(case)
+            for case in
+            (TestClient, TestFreeClient, TestFullClient)
+        ]
+    )
+    runner = unittest.TextTestRunner()
+    runner.run(suite)

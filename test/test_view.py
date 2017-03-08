@@ -22,5 +22,10 @@ class TestView(unittest.TestCase):
         pass
 
 
-if __name__ == '__main__':
-    unittest.main()
+def run():
+    loader = unittest.TestLoader()
+    suite = unittest.TestSuite(
+        loader.loadTestsFromTestCase(TestView)
+    )
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
