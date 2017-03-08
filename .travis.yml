@@ -1,5 +1,5 @@
 sudo: required
-
+dist: trusty
 language: python
 
 python:
@@ -19,3 +19,7 @@ before_script:
 script:
   - "python test/runtests.py"
   - "flake8 src test"
+
+after_success:
+  - "pip install codecov"
+  - codecov
