@@ -426,7 +426,7 @@ class FullClient(Client):
             common.w.error_msg('Missing argument to play')
             return
         if common.v.is_empty():  # Nothing to expand.
-            common.w.error_msg('Wrong context for expand.')
+            common.w.error_msg('Wrong context for expand')
             return
 
         try:
