@@ -156,7 +156,7 @@ def get_windows():
 
 def hex_to_rgb(hex):
     """
-    Convert a hex colour to(r, g, b).
+    Convert a hex colour to (r, g, b).
 
     Arguments:
     hex: Hexidecimal colour code, i.e. '#abc123'.
@@ -204,7 +204,7 @@ def set_colours(colours):
 
 
 def easy_login():
-    """One - step login for debugging."""
+    """One-step login for debugging."""
     config = (password(read_config()))
     validate_config(config)
     user = config['user']
